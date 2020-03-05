@@ -1,6 +1,5 @@
 from tkinter import *
-import pygame, time
-import threading
+import pygame
  
 root = Tk()
 root.title("emdr_audio")
@@ -16,7 +15,6 @@ def change():
         pygame.mixer.init()
         pygame.mixer.music.load('140.wav')
         pygame.mixer.music.play()
-        time.wait(104)
  
 b2.config(command=change)
  
@@ -33,7 +31,6 @@ def change():
         pygame.mixer.init()
         pygame.mixer.music.load('280.wav')
         pygame.mixer.music.play()
-        time.wait(50)
  
 b1.config(command=change)
  
@@ -50,7 +47,6 @@ def change():
         pygame.mixer.init()
         pygame.mixer.music.load("560.wav")
         pygame.mixer.music.play()
-        time.wait(25)
  
 b0.config(command=change)
  
