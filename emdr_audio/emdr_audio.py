@@ -15,6 +15,7 @@ def change():
         pygame.mixer.init()
         pygame.mixer.music.load('140.wav')
         pygame.mixer.music.play()
+        time.wait(20)
  
 b2.config(command=change)
  
@@ -31,6 +32,7 @@ def change():
         pygame.mixer.init()
         pygame.mixer.music.load('280.wav')
         pygame.mixer.music.play()
+        time.wait(20)
  
 b1.config(command=change)
  
@@ -47,6 +49,7 @@ def change():
         pygame.mixer.init()
         pygame.mixer.music.load("560.wav")
         pygame.mixer.music.play()
+        time.wait(20)
  
 b0.config(command=change)
  
